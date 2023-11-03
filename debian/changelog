@@ -1,3 +1,13 @@
+python-cryptography-vectors (38.0.4-1) unstable; urgency=medium
+
+  [ Claudius Heine ]
+  * New upstream version 38.0.4
+
+  [ Debian Janitor ]
+  * Update standards version to 4.6.1, no changes needed.
+
+ -- Sandro Tosi <morph@debian.org>  Wed, 14 Dec 2022 20:20:27 -0500
+
 python-cryptography-vectors (3.4.8-1) unstable; urgency=medium
 
   [ Simon Chopin ]
