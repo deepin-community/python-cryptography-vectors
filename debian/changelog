@@ -1,3 +1,52 @@
+python-cryptography-vectors (43.0.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Add myself to Uploaders.
+  * Bump Standards-Version to 4.7.0.
+  * Drop unused ${shlibs:Depends}.
+
+ -- Andrey Rakhmatullin <wrar@debian.org>  Sun, 11 Aug 2024 00:16:03 +0500
+
+python-cryptography-vectors (42.0.5-2) unstable; urgency=medium
+
+  * Team upload
+  * Test: autopkgtest-pkg-python instead of hand-made equivalent
+  * Fix Breaks python3-cryptography != 42.0.5
+
+ -- Jérémy Lal <kapouer@melix.org>  Tue, 19 Mar 2024 11:09:31 +0100
+
+python-cryptography-vectors (42.0.5-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Adopt package. Add myself as Uploaders. Closes: #1064977.
+  * watch file standard 4 (routine-update)
+  * d/control: Remove python3-setuptools as B-Depends and add flit.
+
+ -- Emmanuel Arias <eamanu@debian.org>  Fri, 15 Mar 2024 20:37:40 -0300
+
+python-cryptography-vectors (41.0.7-2) unstable; urgency=medium
+
+  * orphan
+
+ -- Sandro Tosi <morph@debian.org>  Wed, 28 Feb 2024 12:21:26 -0500
+
+python-cryptography-vectors (41.0.7-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream version 41.0.7
+  * pypi no longer offers signing-key.asc
+  * watch: mangle tarball name
+  * b-depends: pybuild-plugin-pyproject
+  * copyright: dual-license Apache-2.0 or BSD-3-clause
+
+  [ Sandro Tosi ]
+  * debian/control
+    - add myself to uploaders, so i can monitor this package along with
+      cryptography
+    - Make the team the Maintainer (Tristan retired, Closes:1041177).
+
+ -- Jérémy Lal <kapouer@melix.org>  Sun, 07 Jan 2024 12:18:08 +0100
+
 python-cryptography-vectors (38.0.4-1) unstable; urgency=medium
 
   [ Claudius Heine ]
